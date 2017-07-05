@@ -25,4 +25,8 @@ public class PersonRepository {
         return persons.get(id);
     }
 
+    public int getSize() {
+        return persons.size();
+    }
+
 }

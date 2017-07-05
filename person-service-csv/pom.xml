@@ -10,11 +10,16 @@
 	<artifactId>person-service-csv</artifactId>
 
 	<dependencies>
-	   <dependency>
-	        <groupId>${parent.groupId}</groupId>
-	        <artifactId>person-service</artifactId>
-	        <version>${parent.version}</version>
-	   </dependency>
+		<dependency>
+			<groupId>${parent.groupId}</groupId>
+			<artifactId>person-service</artifactId>
+			<version>${parent.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.csveed</groupId>
+			<artifactId>csveed</artifactId>
+			<version>0.4.2</version>
+		</dependency>
 	</dependencies>
 
 	<build>
